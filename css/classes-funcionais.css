@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+  /*  1.4. Clear //////////////////////// */
+  .clear, .clear_5, .clear_10, .clear_15, .clear_20, .clear_25, .clear_30, .clear_35,
+  .clear_40, .clear_45, .clear_50, .clear_55, .clear_60, .clear_65, .clear_70,
+  .clear_75, .clear_80, .clear_85, .clear_90, .clear_95, .clear_100{
+    display:block;
+    width:100%;
+    clear:both;
+  }
+
+  .clear_5{height:5px;}
+  .clear_10{height:10px;}
+
+  .clear_15{height:15px;}
+  .clear_20{height:20px;}
+
+  .clear_25{height:25px;}
+  .clear_30{height:30px;}
+
+  .clear_35{height:35px;}
+  .clear_40{height:40px;}
+
+  .clear_45{height:45px;}
+  .clear_50{height:50px;}
+
+  .clear_55{height:55px;}
+  .clear_60{height:60px;}
+
+  .clear_65{height:65px;}
+  .clear_70{height:70px;}
+
+  .clear_75{height:75px;}
+  .clear_80{height:80px;}
+
+  .clear_85{height:85px;}
+  .clear_90{height:90px;}
+
+  .clear_95{height:95px;}
+  .clear_100{height:100px;}
+
+
+
+
+/*  1.5. FADE /////////////////////////////// */
+  .fade{        
+    transition:         all 0.3s ease-in-out;
+    -moz-transition:    all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition:      all 0.3s ease-in-out;
+    
+  }
+  .fade:hover{
+    transition:         all 0.3s ease 0s;
+    -moz-transition:    all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition:      all 0.3s ease 0s;
+  }
+
+
+.nofloat, .noFloat  {float:none;}
+.fright, .fRight    {float:right;}
+.fleft, .fLeft      {float:left;}
+
+.cboth, .cBoth    {clear:both;}
+.cright, .cRight  {clear:right;}
+.cleft, .cLeft    {clear:left;}
+
+.dblock, .dBlock              {display:block;}
+.dinline, .dInline            {display:inline; float:none;}
+.dinlineblock, .dInlineBlock  {display:inline-block; float:none;}
+
+.dnone, .dNone,
+.hide, .hide {display:none;}
+.hideAccessible {
+  position:absolute;
+  top:-9999px; left:-9999px;
+}
+
+.nomargin, .noMargin {margin:0;}
+.nomarginleft, .noMarginLeft, .row.noMarginLeft {margin-left:0;}
+.nomarginright, .noMarginRight {margin-right:0;}
+.nomargintop, .noMarginTop {margin-top:0;}
+.nomarginbottom, .noMarginBottom {margin-bottom:0;}
+
+.nopadding, .noPadding {padding:0;}
+.nopaddingleft, .noPaddingLeft {padding-left:0;}
+.nopaddingright, .noPaddingRight {padding-right:0;}
+.nopaddingtop, .noPaddingTop {padding-top:0;}
+.nopaddingbottom, .noPaddingBottom {padding-bottom:0;}
+
+.txtLeft, .txtleft {text-align:left;}
+.txtRight, .txtright {text-align:right;}
+.txtJustify, .txtjustify {text-align:justify;}
+.txtCenter, .txtcenter {text-align:center;}
+
+.widthAuto, .widthAuto {width: auto;}
+.widthInherit {width: inherit;}
+
+.noborder, .noBorder {border:none;}
+.noborderright, .noBorderRight {border-right:none;}
+.noborderleft, .noBorderLeft {border-left:none;}
+.noborderbottom, .noBorderBottom {border-bottom:none;}
+.nobordertop, .noBorderTop {border-top:none;}
+
+hr, hr.sepDot {border:none; border-bottom:1px solid #e5e5e5; background:none; display:block; margin:15px 0;}
+.boxCollapse hr, .boxCollapse hr.sepDot {border-color:#c9c9c9;}
+hr.sepDot {border-bottom:1px dotted #E5E5E5;}
+hr.dotsSep {height: 5px; background: url(/img/titDots.png);  margin:20px 0;}
+hr.sep {background-color: #E5E5E5; }
+
+.noBullet, .noListStyle {list-style:none;}
+
+.cursorPointer, .cursorpointer {cursor: pointer;}
+.cursorDefault, .cursordefault {cursor: default;}
+.cursorCrosshair, .cursorcrosshair {cursor: crosshair}
+.cursorMove, .cursormove {cursor: move}
+.cursorHelp, .cursorhelp {cursor: help;}
+.cursorWait, .cursorwait {cursor: wait;}
+.cursorInherit, .cursorinherit {cursor: inherit;}
+.cursorText, .cursortext {cursor: text;}
+.cursorProgress, .cursorprogress {cursor: progress;}
+
+.cursorGrab, .cursorgrab {
+  cursor:hand;
+  cursor:grab;
+  cursor:-moz-grab;
+  cursor:-webkit-grab;
+}
+.cursorGrabbing, .cursorgrabbing {
+  cursor:grabbing;
+  cursor:-moz-grabbing;
+  cursor:-webkit-grabbing;
+}
+
+.marginBottom40 {
+  margin-bottom: 40px;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block !important;
+}

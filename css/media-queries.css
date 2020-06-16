@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*==================================
+=            320 and Up            =
+==================================*/
+
+	  @media print {
+	}
+	  @media only screen and (min-width: 480px) {
+	}
+	  @media only screen and (min-width: 600px) {
+	}
+	  @media only screen and (min-width: 768px) {
+	}
+	  @media only screen and (min-width: 992px) {
+	}
+	  @media only screen and (min-width: 1382px) {
+	}
+	  @media only screen and ( -webkit-min-device-pixel-ratio: 1.5),
+	  only screen and (min--moz-device-pixel-ratio: 1.5),
+	  only screen and (min-device-pixel-ratio: 1.5) {
+	}
+
+/*=============================================
+=            Less Framework                   =
+=============================================*/
+
+ 	/* Tablet Layout */
+    @media only screen and (min-width: 768px) and (max-width: 991px) { 
+  }
+  	/* Mobile Layout */
+    @media only screen and (max-width: 767px) { 
+  }
+  	/* Layout largo de mobile */
+    @media only screen and (min-width: 480px) and (max-width: 767px) { 
+  }
+  	/* Retina display */
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+
+  }
+
+
+/*=============================================
+=		            Skeleton        		  =
+=============================================*/
+
+	/* Menor que 960 */
+  	@media only screen and (max-width: 959px) {
+
+  }
+  	/* Tablet Portrait ao padrão 960 */
+  	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+  }
+  	/* Todos tamanhos de mobile */
+  	@media only screen and (max-width: 767px) {
+
+  }
+  	/* Mobile em landscape a tablet Portrait */
+  	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  }
+  	/* Mobile em portrait a mobile em landscape */
+  	@media only screen and (max-width: 479px) {
+
+  }
+
+
+
+
+
+
+
