@@ -35,7 +35,7 @@
   <img alt="Grafana" src="https://img.shields.io/badge/grafana-%23F46800.svg?style=flat-square&logo=grafana&logoColor=white" />
 </p>
 
-<img height="120" src="https://github-readme-stats-thiagocorbalans-projects.vercel.app/api?username=thiagocorbalan&show_icons=true&theme=dracula&include_all_commits=true&hide=stars" />
+<img height="180" src="https://github-readme-stats-thiagocorbalans-projects.vercel.app/api?username=thiagocorbalan&show_icons=true&theme=dracula&include_all_commits=true&hide=stars" />
 
 ### My contacts
 <a href="https://www.linkedin.com/in/thiagocorbalan" target="_blank"><img alt="Thiago-Linkding" height="28" width="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"></a>
