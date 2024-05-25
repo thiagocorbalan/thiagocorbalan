@@ -2,11 +2,24 @@
   "name": "thiagocorbalan",
   "version": "1.0.0",
   "description": "My personal website",
-  "main": "",
   "scripts": {
-    "test": ""
+	"deploy": "run-s -ln clean copy build",
+    "copy": "cp -r src/assets public/assets",
+	"clean": "rm -rf public/assets && rm -f public/*",
+	"build": "run-s -ln minify:js minify:css minify:html",
+    "minify:js": "terser src/app.js --compress ecma=2015,computed_props=false -o public/app.js",
+    "minify:css": "minify src/style.css > public/style.css",
+    "minify:html": "minify src/index.html > public/index.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "minify": "11.2.0",
+    "npm-run-all": "4.1.5",
+    "terser": "5.31.0"
+  },
+  "engines": {
+	"node": ">=18"
+  }
 }
