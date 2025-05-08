@@ -9,6 +9,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: production
 
     steps:
       - name: Checkout
@@ -17,9 +18,9 @@ jobs:
       - name: Deploy FTP for Locaweb
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.thiagocorbalan.com.br
-          username: thiagocorbalan1
-          password: T@KcfxcLvRqs86SSW
+          server: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          password: ${{ secrets.PASS }}
           server-dir: /public_html/
           local-dir: ./public/
           protocol: ftp
