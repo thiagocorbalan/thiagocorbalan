@@ -20,6 +20,6 @@ jobs:
           server: ftp.thiagocorbalan.com.br
           username: thiagocorbalan1
           password: T@KcfxcLvRqs86SSW
-          server-dir: /public_html
-          local-dir: ./public
+          server-dir: /public_html/
+          local-dir: ./public/
           protocol: ftp
