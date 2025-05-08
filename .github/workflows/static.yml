@@ -1,18 +1,24 @@
 name: Deploy via ftp
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
+
 jobs:
-  deploy:
-    name: Deploy
+  ftp-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+      - name: Checkout do código
+        uses: actions/checkout@v3
 
-    - name: FTP Deploy Locaweb
-      uses: locaweb/ftp-deploy@1.0.0
-      with:
-        host: ${{ secrets.HOST }} 
-        user: ${{ secrets.USER }}
-        password: ${{ secrets.PASS }}
-        localDir: "public"
+      - name: Deploy via FTP para Locaweb
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.thiagocorbalan.com.br
+          username: ${{ secrets.USER }}
+          password: ${{ secrets.PASS }}
+          protocol: ftp
+          local-dir: ./public
+          server-dir: /home/thiagocorbalan1/
+          port: 21
