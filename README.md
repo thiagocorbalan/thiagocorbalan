@@ -1,6 +1,6 @@
 <h1> 👋 Hey! Nice to meet you. 😊</h1>
 
-<p>I'm Thiago Corbalan, Fullstack developer from 🇧🇷 <strong>Bauru, Brazil</strong>. Currently available for a job opportunity as a Frontend Software Engineer.</p>
+<p>I'm Thiago Corbalan, Fullstack developer from 🇧🇷 <strong>Bauru, Brazil</strong>. Currently available for a job opportunity as a Frontend Software Engineer.</p> 
 
 ### My contacts
 
